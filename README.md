@@ -12,7 +12,7 @@ This is the README for Toolbox extension. this extension takes in user code sele
 ## Requirements
 
 To use Toolbox extension
-* Clone repo from github link "".
+* Clone repo from github link "https://github.com/Merna-Zakaria/Vscode_extension.git".
 * run this command "npm install".
 * Press `F5` to open a new window with your extension loaded.
 * Open your JS file in editor to use Toolbox extension.
