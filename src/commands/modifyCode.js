@@ -1,4 +1,5 @@
 const vscode = require('vscode');
+require('dotenv').config();
 
  async function modifyCode() {
     const editor = vscode.window.activeTextEditor;
@@ -44,7 +45,7 @@ const vscode = require('vscode');
         },
     ];
 
-    const fireworks_api_key = 'T31JQo7MmIaBT889PSvbA9teGQoPL0B5VliulkOaFgd7xe6n'
+    const fireworks_api_key = process.env.FIREWORKS_API_KEY
 
     let content = await generateJS(messages);
     await editor.edit((editBuilder) => {
